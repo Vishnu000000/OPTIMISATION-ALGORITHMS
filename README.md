@@ -1,86 +1,77 @@
-# OPTIMISATION ALGORITHMS CODES
+# Interactive Nature-Inspired Optimization Algorithm Visualizer
 
-This repository contains various implementations of optimisation algorithms in Jupyter Notebooks. The codes serve as examples and references for understanding and applying different optimisation strategies in computational problems. You can run these notebooks locally or directly on [Google Colab](https://colab.research.google.com/).
+This project is an interactive web application that provides a platform for comparing and visualizing the performance of various nature-inspired optimization algorithms. Developed using Streamlit, it serves as both a tool for understanding complex optimization concepts and a portfolio piece demonstrating proficiency in algorithm implementation, data visualization, and web application development.
 
-## 📌 Overview
+## 🌟 Features
 
-The project includes implementations of the following optimisation algorithms:
-- **ABC (Artificial Bee Colony)**
-- **ALO (Ant Lion Optimizer)**
-- **CSA (Cuckoo Search Algorithm)**
-- **DragonFly Algorithm**
-- **GA (Genetic Algorithm)**
-- **GWO (Grey Wolf Optimizer)**
-- **MothFlame Optimization**
-- **PSO (Particle Swarm Optimization)**
-- **SA (Simulated Annealing)**
-- **SOPT (Self-Optimising / Self-Organising Particle Tracker)**
-- **TLBO (Teaching–Learning-Based Optimization)**
+* **10 Implemented Algorithms:** The application includes a modular framework with implementations of a diverse set of optimization algorithms:
 
-Each notebook demonstrates the algorithm's logic, application, and performance on sample optimisation problems.
+  * Genetic Algorithm (GA)
 
-## 🛠️ Prerequisites
+  * Particle Swarm Optimization (PSO)
 
-To run the notebooks locally, ensure you have the following:
-- [Python](https://www.python.org/downloads/) (preferably 3.6 or higher) or Google colab
-- [Jupyter Notebook](https://jupyter.org/) or [JupyterLab](https://jupyterlab.readthedocs.io/)
-- Required libraries (e.g., NumPy, SciPy, Matplotlib)  
-  Install them via pip:
-  ```bash
-  pip install numpy scipy matplotlib
-For running the notebooks in Google Colab, simply upload the notebook or open them directly from GitHub using Colab’s GitHub integration.
+  * Simulated Annealing (SA)
 
-🚀 Getting Started
+  * Teaching-Learning-Based Optimization (TLBO)
 
-For Running in Google Colab
-1. Open Google Colab.
-2. Click on File > Open notebook > GitHub.
-3. Enter the repository URL:
-https://github.com/Vishnu000000/OPTIMISATION-ALGORITHMS-CODES
-4. Select the notebook you wish to run.
-Colab will load the notebook, and you can start executing the cells directly in your browser.
-📂 Repository Structure
-OPTIMISATION-ALGORITHMS-CODES/
-├── ABC.ipynb
-├── ALO.ipynb
-├── CSA.ipynb
-├── DragonFly.ipynb
-├── GA.ipynb
-├── GWO.ipynb
-├── MothFlame.ipynb
-├── PSO.ipynb
-├── SA.ipynb
-├── SOPT.ipynb
-└── TLBO.ipynb
+  * Artificial Bee Colony (ABC)
 
-Another Way...
-Running Locally
-Clone the repository:
-bash
-Copy
-Edit
-git clone https://github.com/Vishnu000000/OPTIMISATION-ALGORITHMS-CODES.git
-Navigate to the repository:
-bash
-Copy
-Edit
-cd OPTIMISATION-ALGORITHMS-CODES
-Launch Jupyter Notebook:
-bash
-Copy
-Edit
-jupyter notebook
-Open any of the algorithm notebooks to start exploring:
-ABC.ipynb
-ALO.ipynb
-CSA.ipynb
-DragonFly.ipynb
-GA.ipynb
-GWO.ipynb
-MothFlame.ipynb
-PSO.ipynb
-SA.ipynb
-SOPT.ipynb
-TLBO.ipynb
+  * Cuckoo Search Algorithm (CSA)
 
+  * Antlion Optimization (ALO)
 
+  * Dragonfly Algorithm (DA)
+
+  * Moth-Flame Optimization (MFO)
+
+  * Grey Wolf Optimizer (GWO)
+
+* **Interactive Visualization:** Users can select an algorithm and objective function, and the application generates a real-time 3D plot showing the algorithm's search path on the function's landscape. This dynamic visualization helps to intuitively understand the exploration and exploitation trade-offs of each method.
+
+* **Customizable Parameters:** The sidebar allows for easy adjustment of key algorithm parameters (e.g., population size, number of iterations, mutation rate), enabling users to experiment and observe how these changes impact performance.
+
+* **Clear Results:** The application displays the best solution found and its corresponding fitness value, providing a quantitative measure of each algorithm's effectiveness.
+
+## 🚀 How to Run Locally
+
+To run this application on your local machine, follow these simple steps:
+
+1.  **Clone the Repository**
+
+    ```bash
+    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    cd your-repo-name
+    ```
+
+2.  **Install Dependencies**
+    You need to have Python and `pip` installed. The required packages are listed in a `requirements.txt` file (you can create one from the code by noting the imports).
+
+    ```bash
+    pip install streamlit numpy plotly
+    ```
+
+3.  **Run the App**
+
+    ```bash
+    streamlit run app.py
+    ```
+
+The application will automatically open in your default web browser at `http://localhost:8501`.
+
+## 📚 Core Concepts & Technologies
+
+* **Python:** The core language for all algorithms and the web application.
+
+* **NumPy:** Used for efficient numerical computations and handling of algorithm populations.
+
+* **Streamlit:** A powerful, easy-to-use framework for creating beautiful, interactive web applications for data science and machine learning projects with pure Python.
+
+* **Plotly:** A versatile graphing library for creating the interactive 3D visualizations.
+
+## 🤝 Contribution
+
+Feel free to open issues or submit pull requests. I welcome any suggestions for improving the code, adding new algorithms, or enhancing the user interface.
+
+## 📄 License
+
+This project is open-sourced under the MIT License.
