@@ -1,4 +1,4 @@
-# Interactive Nature-Inspired Optimization Algorithm Visualizer
+# Interactive Nature-Inspired Optimization Algorithm Visualizer | BTech Project
 
 This project is an interactive web application that provides a platform for comparing and visualizing the performance of various nature-inspired optimization algorithms. Developed using Streamlit, it serves as both a tool for understanding complex optimization concepts and a portfolio piece demonstrating proficiency in algorithm implementation, data visualization, and web application development.
 
@@ -68,10 +68,3 @@ The application will automatically open in your default web browser at `http://l
 
 * **Plotly:** A versatile graphing library for creating the interactive 3D visualizations.
 
-## 🤝 Contribution
-
-Feel free to open issues or submit pull requests. I welcome any suggestions for improving the code, adding new algorithms, or enhancing the user interface.
-
-## 📄 License
-
-This project is open-sourced under the MIT License.
